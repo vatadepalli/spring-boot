@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+		background-color: ivory;
+}
+
+select, textarea, button, input{
+	
+		margin: 5px
+}
+
+nav{
+	margin-bottom: 20px
+}
