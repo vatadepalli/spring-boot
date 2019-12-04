@@ -32,7 +32,7 @@ public class ProjectRepositoryIntegrationTest {
 		Project newProject = new Project("New Test Project", "COMPLETED", "Test Description");
 		proRepo.save(newProject);
 		
-		assertEquals(9, proRepo.findAll().size());
+		assertEquals(13, proRepo.findAll().size());
 	}
 
 }
